@@ -65,3 +65,28 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media(max-width:900px) {
+
+    .profile-container {
+        flex-direction: column; /* Stack elements vertically */
+        min-width: auto; /* Remove the minimum width */
+        width: 100%; /* Take full width of the screen */
+        margin: 20px;
+    }
+
+    .profile-pic {
+        max-width: 120px; /* Reduce profile picture size */
+    }
+
+    .profile form {
+        padding: 20px; /* Reduce padding */
+        gap: 15px; /* Reduce gap between form elements */
+    }
+
+    .profile input, textarea {
+        min-width: 100%; /* Make inputs fill the available space */
+    }
+    
+    
+}
